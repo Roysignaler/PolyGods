@@ -15,7 +15,7 @@ const Home = () => {
 
       if(!playerExists) {
         await contract.registerPlayer(playerName, playerName, {
-          gasLimit: 200000000000
+          gasLimit: 200000000
       });
         
         setShowAlert({
