@@ -56,7 +56,7 @@ const Battle = () => {
 
     try {
         await contract.attackOrDefendChoice(choice, battleName, {
-            gasLimit: 200000000000
+            gasLimit: 200000000
         });
 
         setShowAlert({
