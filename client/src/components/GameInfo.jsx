@@ -17,7 +17,7 @@ const GameInfo = () => {
 
         try {
             await contract.quitBattle(battleName, {
-                gasLimit: 200000000
+                gasLimit: 2000000
             });
 
             setShowAlert({ status: true, type: 'info', message: `You're quitting the ${battleName}`})
